@@ -11,7 +11,6 @@ import { configs: pluginPutout } from 'eslint-plugin-putout';
 import { configs: pluginRegexp } from 'eslint-plugin-regexp';
 import pluginMicrosoftSdl from '@microsoft/eslint-plugin-sdl';
 import pluginNoUnsanitized from 'eslint-plugin-no-unsanitized';
-import pluginPerfectionist from 'eslint-plugin-perfectionist';
 import pluginCompat from 'eslint-plugin-compat';
 import pluginStylistic from '@stylistic/eslint-plugin';
 import pluginHTML from '@html-eslint/eslint-plugin';
@@ -28,7 +27,6 @@ const config: [ConfigObject] = [
   pluginRegexp["flat/all"],
   pluginMicrosoftSdl.configs.recommended,
   pluginNoUnsanitized.configs.recommended,
-  pluginPerfectionist.configs['recommended-natural'],
   pluginCompat.configs["flat/recommended"],
   pluginStylistic.configs['all-flat'],
   pluginHTML.configs['flat/all'],
